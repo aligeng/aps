@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9436967b8f454fa69c91abdd6d2edf12" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.ACTIONLOGDETAIL" Width="1.5" PointX="5" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ACTIONLOGMASTER" Width="1.5" PointX="2.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AVERAGEEFFICIENCY" Width="1.5" PointX="7.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BaseData" Width="1.5" PointX="15.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CALENDARCONTROL" Width="1.5" PointX="3" PointY="42.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CALENDARTEMPLATE" Width="1.5" PointX="5.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CALENDARTEMPLATEDETAIL" Width="1.5" PointX="8" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CAPACITYALLOCATION" Width="1.5" PointX="15.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ColumnFixed" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CRITICALEVENT" Width="1.5" PointX="9.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CRITICALEVENTMAN" Width="1.5" PointX="13.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CUSTOMER" Width="1.5" PointX="6.75" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Customer_ext" Width="1.5" PointX="2.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CustomerEventFlow" Width="1.5" PointX="9.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CUSTOMERGROUPLEVEL2" Width="1.5" PointX="15.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DMLOG" Width="1.5" PointX="17.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_AMO_DEFECT" Width="1.5" PointX="17.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_AMO_MIGRATION_LOG" Width="1.5" PointX="17.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_AMO_ORDER_LOG" Width="1.5" PointX="17.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_AMO_PO" Width="1.5" PointX="0.75" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_AMO_PROGRESS" Width="1.5" PointX="2.75" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_DEFECT_TRANS" Width="1.5" PointX="19.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_DEFECT_TYPE" Width="1.5" PointX="19.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_LINE_PERIOD" Width="1.5" PointX="19.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_MESSAGE" Width="1.5" PointX="13.75" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_PARAMETER" Width="1.5" PointX="15.75" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_PERIOD_DEFECT" Width="1.5" PointX="19.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_PERIOD_DEFINE" Width="1.5" PointX="20.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_PERIOD_EFFICIENCY" Width="1.5" PointX="21.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_PO_STATUS_HIST" Width="1.5" PointX="21.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_PROGRESS_TRANS" Width="1.5" PointX="21.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_SCHEDULE" Width="1.5" PointX="21.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EB_STATUS" Width="1.5" PointX="4.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EFFICIENCYLEVEL" Width="1.5" PointX="12" PointY="67.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EVENTFLOW" Width="1.5" PointX="6.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EVENTFLOWNODE" Width="1.5" PointX="12" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EXCELMAPPING" Width="1.5" PointX="17.75" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FACILITY" Width="1.5" PointX="3" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FACILITYEFFICIENCY" Width="1.5" PointX="5.25" PointY="37.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FACILITYWORKERNUMBER" Width="1.5" PointX="5.25" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FACTORY" Width="1.5" PointX="0.75" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Factory_ext" Width="1.5" PointX="22.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.factprocessSet_ext" Width="1.5" PointX="13.75" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FRAMEWORK" Width="1.5" PointX="0.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.GRPSERy" Width="1.5" PointX="19.75" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.GRPTCONDITION" Width="1.5" PointX="21.75" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.GRPTDATA" Width="1.5" PointX="0.75" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.GRPTDATASOURCE" Width="1.5" PointX="2.75" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.GRPTMASTER" Width="1.5" PointX="23.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.HISTORY_EVENTD" Width="1.5" PointX="18" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.HISTORY_EVENTM" Width="1.5" PointX="15.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.HOLIDAY" Width="1.5" PointX="3" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ID_TABLE" Width="1.5" PointX="7.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.JOBALERT" Width="1.5" PointX="23.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LANGUAGESETTING" Width="1.5" PointX="23.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LineConnectSeting" Width="1.5" PointX="23.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LNCURVEAPPLY" Width="1.5" PointX="11.25" PointY="54.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LNCURVEAPPLYDETAIL" Width="1.5" PointX="13.5" PointY="57" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LNCURVEDETAIL" Width="1.5" PointX="6" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LNCURVETEMPLATE" Width="1.5" PointX="3.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LNCURVETEMPLATEAPPLY" Width="1.5" PointX="6" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LOADSHARING" Width="1.5" PointX="23.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LOGFILEIMPORT" Width="1.5" PointX="23.75" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LOGMASTER" Width="1.5" PointX="23.75" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LOGSCHEDULING" Width="1.5" PointX="24.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MACHINEINVENTORY" Width="1.5" PointX="6" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.macroplan_capacity_loading_ext" Width="1.5" PointX="25.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MATERIAL" Width="1.5" PointX="13" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MATERIALRECEIVE" Width="1.5" PointX="25.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MATERIALTEMPLATE" Width="1.5" PointX="25.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MATERIALTYPE" Width="1.5" PointX="10.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MODELSETTING" Width="1.5" PointX="13.75" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MonitorPo_ext" Width="1.5" PointX="25.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ONLINEUSER" Width="1.5" PointX="15.75" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OPDWF120" Width="1.5" PointX="25.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OPDWF220" Width="1.5" PointX="25.75" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OPDWF220_TOTAL" Width="1.5" PointX="17.75" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OPDWF320" Width="1.5" PointX="19.75" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OPDWF510" Width="1.5" PointX="25.75" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OPDWFPatternInfo" Width="1.5" PointX="27.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OPERATIONLOGDETAIL" Width="1.5" PointX="13" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OPERATIONLOGMASTER" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ORDERALLOCATIONRULE" Width="1.5" PointX="0.75" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTEVENT" Width="1.5" PointX="27.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTEVENTPERSON" Width="1.5" PointX="27.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTFLOW" Width="1.5" PointX="27.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTFLOWNODE" Width="1.5" PointX="27.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTMATERIALCATEGORY" Width="1.5" PointX="27.75" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTPARAMETER" Width="1.5" PointX="27.75" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTPOEVENT" Width="1.5" PointX="27.75" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTPOSKETCH" Width="1.5" PointX="14.75" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTREMARK" Width="1.5" PointX="29.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTREMARKATTACHEMENT" Width="1.5" PointX="29.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTREMARKINFO" Width="1.5" PointX="29.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OTTREMARKSOLOT" Width="1.5" PointX="29.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PATTERNCAPACITY" Width="1.5" PointX="6" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PLANFACILITYPERMISSION" Width="1.5" PointX="11.25" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PLANHISTORYDETAIL" Width="1.5" PointX="13" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PLANHISTORYMASTER" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PLANPOPERMISSION" Width="1.5" PointX="11.25" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PO" Width="1.5" PointX="9" PointY="36.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Po_ext" Width="1.5" PointX="29.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POCAPACITY" Width="1.5" PointX="14.25" PointY="48.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POCUSTOM" Width="1.5" PointX="11.25" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POCUSTOMCONFIG" Width="1.5" PointX="29.75" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PODETAIL" Width="1.5" PointX="11.25" PointY="48" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POEVENT" Width="1.5" PointX="14.25" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POLOGDETAIL" Width="1.5" PointX="21.75" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POLOGMASTER" Width="1.5" PointX="29.75" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POMACHINE" Width="1.5" PointX="14.25" PointY="44.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POMATERIALREQUEST" Width="1.5" PointX="29.75" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POPROCESSROUTE" Width="1.5" PointX="17.25" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.poprocessstatus_ext" Width="1.5" PointX="31.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PORECIPE" Width="1.5" PointX="11.25" PointY="62.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POSIZEORDERED" Width="1.5" PointX="0.75" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PROCESS" Width="1.5" PointX="3.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.process_ext" Width="1.5" PointX="31.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Processdailydata_ext" Width="1.5" PointX="31.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PROCESSEVENTMAPPING" Width="1.5" PointX="31.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PROCESSROUTE" Width="1.5" PointX="6.75" PointY="61" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PROCESSROUTENODE" Width="1.5" PointX="15" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PRODUCTIONEVENT" Width="1.5" PointX="5.25" PointY="53.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PRODUCTIONEVENTCAPACITY" Width="1.5" PointX="31.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PRODUCTIONEVENTDETAIL" Width="1.5" PointX="20.25" PointY="44" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PRODUCTIONSCHEDULE" Width="1.5" PointX="17.25" PointY="50.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PRODUCTPROCESSCAPACITY" Width="1.5" PointX="9" PointY="58.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PRODUCTTYPE" Width="1.5" PointX="6.75" PointY="69.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PRODUCTTYPECAPACITY" Width="1.5" PointX="14.25" PointY="52.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.REF" Width="1.5" PointX="31.75" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.REPORTSETTING" Width="1.5" PointX="31.75" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.REPORTSETTINGDETAIL" Width="1.5" PointX="31.75" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ROLEFRAMEPOPEDOM" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ROLEJOBPOPEDOM" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ROLE" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SCHEDULEPARAM" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SCOREGROUP" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SCOREGROUPITEM" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SCORETEMPLATE" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SCORETEMPLATEGROUP" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SCORETEMPLATEGROUPITEM" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Sewingdailydata_ext" Width="1.5" PointX="31.75" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SPECIALCALENDAR" Width="1.5" PointX="5.25" PointY="64.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.STYLEINFO" Width="1.5" PointX="33.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SwitchTime" Width="1.5" PointX="33.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USERPREFERENCE" Width="1.5" PointX="11.25" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USERROLE" Width="1.5" PointX="11.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.USER" Width="1.5" PointX="9" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.VIEWDATAPERMISSION" Width="1.5" PointX="11.25" PointY="36" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.WORKCALENDAR" Width="1.5" PointX="33.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.WORKCALENDARAPPLY" Width="1.5" PointX="8" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.WORKSHOP" Width="1.5" PointX="3" PointY="95.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BI_DAILY_LOADING" Width="1.5" PointX="33.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BI_PO" Width="1.5" PointX="33.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BI_PO_DATA" Width="1.5" PointX="33.75" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DMLOGFILE" Width="1.5" PointX="21.75" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DMPO" Width="1.5" PointX="33.75" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DMPOCUSTOM" Width="1.5" PointX="0.75" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DMPODETAIL" Width="1.5" PointX="35.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DMPOSIZEDETAIL" Width="1.5" PointX="35.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OPDWF510Split" Width="1.5" PointX="35.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POIMAGE" Width="1.5" PointX="35.75" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.POSIZEDETAIL" Width="1.5" PointX="16.5" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PROCESSRULE" Width="1.5" PointX="35.75" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PROTYPECAPACITYLOG" Width="1.5" PointX="35.75" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EXT_V_PO" Width="1.5" PointX="22.75" PointY="38.625" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_ACTIONLOGMASTER_DETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACTORY_CALENDARCONTROL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CALENDARTEMPLATE_APPLY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CALENDARTEMPLATE_DETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CRITICALEVENT_FLOWNODE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CUSTOMER_PO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_EFFICIENCYLEVEL_CAPACITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_EFFICIENCYLEVEL_POCAPACITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_EVENTFLOW_EVENTFLOWNODE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_EVENTFLOW_PO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_EVENTFLOWNODE_POEVENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACILITY_CAPACITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACILITY_EFFICIENCY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACILITY_LNCURVEAPPLY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACILITY_PLANPERMISSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACILITY_SPECIALCALENDAR" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACILITY_WORKERNUMBER" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACTORY_FACILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROCESS_FACILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PRODUCTIONEVENT_FACILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACTORY_HOLIDAY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACTORY_LNCURVETEMPAPPLY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACTORY_MACHINEINVENTORY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACTORY_PO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACTORY_PRODEVENTDETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FACTORY_WORKSHOP" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FRAMEWORKS_ROLEFRAMEPOPED" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_HISTORYEVENTM_D" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_LNCURVEAPPLY_DETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_LNCURVEAPPLY_TEMPLATE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_LNCURVETEMPLATE_DETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_LNCURVETTEMPLATE_APPLY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_MACHINEINVENTORY_POMACHINE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROCESS_MACHINEINVENTORY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_MATERIALTYPE_MATERIAL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OPERATIO_FK_OPERAT_OPERATIO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROCESS_PATTERNCAPACITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERS_PLANFACILITYPERM" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PLANHIST_FK_PLANHI_PLANHIST" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERS_PLANPOPERMISSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PO_POCAPACITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PO_POCUSTOM" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PO_PODETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PO_POEVENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PO_POMACHINE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PO_POPROCESSROUTE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PO_PORECIPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PO_POSIZEDETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PO_PRODUCTIONEVENTDETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PO_PRODUCTIONSCHEDULE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROCESSROUTE_PO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PRODUCTTYPE_PO" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PODETAIL_POSIZEDETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROCESSROUTENODE_POPROCESS" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROCESS_CAPACITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROCESS_PROCESSROUTENODE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROCESS_PRODUCTIONSCHEDULE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PROCESSROUTE_ROUTENODE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PRODUCTIONEVENT_DETAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PRODUCT_PROCESSCAPACITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PRODUCTTYPE_CAPACITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ROLES_ROLEFRAMEPOPEDOMS" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ROLE_JOBPOPEDOMS" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ROLES_USERROLES" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SCORETEMPLATE_PARAM" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SCOREGROUP_TEMPLATE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SCOREGROUPITEM_TEMPLATE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SCORETEMPLATE_GROUP" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SCORETEMPLATEGROUP_ITEM" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERS_USERPREFERENCE" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERS_USERROLES" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_USERS_VIEWDATAPERMISSION" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

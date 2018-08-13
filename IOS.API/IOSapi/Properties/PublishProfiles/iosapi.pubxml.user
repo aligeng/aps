@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\发布文件\APSapi</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>11/01/2017 09:20:25</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>11/01/2017 09:20:24</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>11/01/2017 09:19:53</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>11/01/2017 09:20:26</publishTime>
+    </File>
+    <File Include="bin/bin/IOSapi.XML">
+      <publishTime>11/29/2017 14:57:34</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v12.2.dll">
+      <publishTime>08/16/2017 15:09:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v12.2.Core.dll">
+      <publishTime>08/16/2017 15:09:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v12.2.dll">
+      <publishTime>08/16/2017 15:09:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraBars.v12.2.dll">
+      <publishTime>08/16/2017 15:09:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraEditors.v12.2.dll">
+      <publishTime>08/16/2017 15:09:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraGrid.v12.2.dll">
+      <publishTime>08/16/2017 15:09:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraLayout.v12.2.dll">
+      <publishTime>08/16/2017 15:09:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraPrinting.v12.2.dll">
+      <publishTime>08/16/2017 15:09:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraTreeList.v12.2.dll">
+      <publishTime>08/16/2017 15:09:58</publishTime>
+    </File>
+    <File Include="bin/Dos.ORM.dll">
+      <publishTime>11/28/2017 13:19:04</publishTime>
+    </File>
+    <File Include="bin/Encryptor.dll">
+      <publishTime>07/19/2018 18:01:12</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>11/15/2017 14:11:49</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>11/15/2017 14:11:49</publishTime>
+    </File>
+    <File Include="bin/GASolverApp.dll">
+      <publishTime>06/06/2018 13:35:43</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>08/16/2017 15:10:02</publishTime>
+    </File>
+    <File Include="bin/IOS-APS.BLL.dll">
+      <publishTime>07/23/2018 16:54:49</publishTime>
+    </File>
+    <File Include="bin/IOS-APS.Common.dll">
+      <publishTime>07/19/2018 18:01:27</publishTime>
+    </File>
+    <File Include="bin/IOS-APS.MacroPlanData.dll">
+      <publishTime>07/23/2018 16:54:55</publishTime>
+    </File>
+    <File Include="bin/IOS-APS.Model.dll">
+      <publishTime>07/23/2018 16:22:26</publishTime>
+    </File>
+    <File Include="bin/IOS-APS.Reports.dll">
+      <publishTime>07/19/2018 18:01:36</publishTime>
+    </File>
+    <File Include="bin/IOS-APS.Service.dll">
+      <publishTime>06/06/2018 13:35:46</publishTime>
+    </File>
+    <File Include="bin/IOS-APS.Tools.dll">
+      <publishTime>07/19/2018 18:01:14</publishTime>
+    </File>
+    <File Include="bin/IOS-APSData.dll">
+      <publishTime>07/23/2018 16:24:07</publishTime>
+    </File>
+    <File Include="bin/IOS.DBUtility.dll">
+      <publishTime>07/23/2018 16:22:25</publishTime>
+    </File>
+    <File Include="bin/IOSapi.dll">
+      <publishTime>08/10/2018 15:40:07</publishTime>
+    </File>
+    <File Include="bin/IOSapi.XML">
+      <publishTime>11/29/2017 14:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>11/01/2017 09:20:15</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/03/2017 13:58:34</publishTime>
+    </File>
+    <File Include="bin/Oracle.DataAccess.dll">
+      <publishTime>08/16/2017 15:09:59</publishTime>
+    </File>
+    <File Include="bin/ReleaseInfo.txt">
+      <publishTime>08/16/2017 15:10:08</publishTime>
+    </File>
+    <File Include="bin/SolverLib.dll">
+      <publishTime>11/28/2017 13:19:03</publishTime>
+    </File>
+    <File Include="bin/Swashbuckle.Core.dll">
+      <publishTime>02/24/2016 12:21:04</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/01/2017 09:20:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/01/2017 09:20:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/01/2017 09:20:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/01/2017 09:20:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/01/2017 09:20:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/01/2017 09:20:13</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/01/2017 09:20:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/01/2017 09:20:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/01/2017 09:20:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/01/2017 09:20:14</publishTime>
+    </File>
+    <File Include="bin/Tools/SqlConfiguration.xml">
+      <publishTime>08/16/2017 15:10:09</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>02/08/2013 16:42:28</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>11/01/2017 09:20:27</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/EntityFramework.resources.dll">
+      <publishTime>09/11/2013 09:09:56</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/EntityFramework.SqlServer.resources.dll">
+      <publishTime>09/11/2013 09:09:56</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>10/01/2013 20:55:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
+      <publishTime>10/01/2013 20:55:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>10/01/2013 20:55:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>10/01/2013 20:55:10</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
+      <publishTime>10/01/2013 20:55:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Optimization.resources.dll">
+      <publishTime>09/04/2013 02:30:02</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
+      <publishTime>10/01/2013 20:55:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>10/01/2013 20:55:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>10/01/2013 20:55:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
+      <publishTime>10/01/2013 20:55:12</publishTime>
+    </File>
+    <File Include="ClassDiagram1.cd">
+      <publishTime>07/02/2018 15:47:41</publishTime>
+    </File>
+    <File Include="ClassDiagram2.cd">
+      <publishTime>07/10/2018 14:40:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/01/2017 09:19:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/01/2017 09:19:57</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/01/2017 09:19:53</publishTime>
+    </File>
+    <File Include="DLL/Encryptor.dll">
+      <publishTime>07/19/2018 18:01:12</publishTime>
+    </File>
+    <File Include="DLL/IOS-APS.BLL.dll">
+      <publishTime>07/23/2018 16:54:49</publishTime>
+    </File>
+    <File Include="DLL/IOS-APS.Common.dll">
+      <publishTime>07/19/2018 18:01:27</publishTime>
+    </File>
+    <File Include="DLL/IOS-APS.MacroPlanData.dll">
+      <publishTime>07/23/2018 16:54:55</publishTime>
+    </File>
+    <File Include="DLL/IOS-APS.Model.dll">
+      <publishTime>07/23/2018 16:22:26</publishTime>
+    </File>
+    <File Include="DLL/IOS-APS.Reports.dll">
+      <publishTime>07/19/2018 18:01:36</publishTime>
+    </File>
+    <File Include="DLL/IOS-APS.Tools.dll">
+      <publishTime>07/19/2018 18:01:14</publishTime>
+    </File>
+    <File Include="DLL/IOS-APSData.dll">
+      <publishTime>07/23/2018 16:24:07</publishTime>
+    </File>
+    <File Include="DLL/IOS.DBUtility.dll">
+      <publishTime>07/23/2018 16:22:25</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>11/01/2017 09:19:53</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/01/2017 09:19:57</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/01/2017 09:19:57</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/01/2017 09:19:57</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/01/2017 09:19:57</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/01/2017 09:19:53</publishTime>
+    </File>
+    <File Include="Models/Model.edmx.diagram">
+      <publishTime>07/27/2018 01:36:56</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/30/2017 10:54:40</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/01/2017 09:19:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/01/2017 09:19:57</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>11/01/2017 09:20:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>11/01/2017 09:20:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>11/01/2017 09:20:02</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>11/01/2017 09:20:26</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>11/01/2017 09:20:28</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>11/01/2017 09:20:28</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>07/04/2018 14:59:01</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/01/2017 09:19:53</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>11/01/2017 09:19:53</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/03/2017 13:33:34</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>11/01/2017 13:10:54</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/01/2017 09:19:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/09/2018 17:01:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
